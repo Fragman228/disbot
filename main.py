@@ -17,7 +17,6 @@ async def on_ready():
             f'{Bot.user} подключились к чату:\n'
             f'{guild.name}(id: {guild.id})'
         )
-
 @Bot.event
 async def on_message(message):
     if message.author == Bot.user:
